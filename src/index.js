@@ -9,7 +9,10 @@ root.render(
   <React.StrictMode>
     <App />
     <footer>
-      <a href="/" target="blank">
+      <a
+        href="https://github.com/grishmav87/weather-app-react.git"
+        target="blank"
+      >
         Open-source code
       </a>{" "}
       by Grishma V.
