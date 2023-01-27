@@ -15,11 +15,16 @@ export default function App() {
         <a
           href="https://github.com/grishmav87/weather-app-react.git"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code
-        </a>
+        </a>{" "}
         by Grishma V.{" "}
-        <a href="https://gregarious-pixie-53cac9.netlify.app/" target="_blank">
+        <a
+          href="https://gregarious-pixie-53cac9.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           hosted on Netlify
         </a>
       </footer>
