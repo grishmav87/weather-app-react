@@ -48,3 +48,6 @@ li {
   font-size: 24px;
   vertical-align: super;
 }
+.App .unit a {
+  text-decoration: none;
+}
