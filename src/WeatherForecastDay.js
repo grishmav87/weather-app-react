@@ -4,7 +4,6 @@ import "./WeatherForecastDay.css";
 
 export default function WeatherForecastDay(props) {
   function temperatureHigh() {
-    console.log({ props });
     let temperature = Math.round(props.data.temp.max);
     return `${temperature}°`;
   }

@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
                 <li className="current-date">
                   <FormattedDate date={props.data.date} />
                 </li>
-                <li classname="humidity-wind">
+                <li>
                   Humidity: {props.data.humidity}%, Wind: {props.data.wind} km/h
                 </li>
               </ul>
