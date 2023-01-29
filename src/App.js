@@ -1,16 +1,15 @@
 import React from "react";
 import WeatherApp from "./WeatherApp";
+
 import "./App.css";
 
 export default function App() {
   return (
-    <div>
-      {" "}
-      <div className="App">
-        <div className="weather-app">
-          <WeatherApp defaultCity="Perth" />
-        </div>
+    <div className="App">
+      <div className="weather-app">
+        <WeatherApp defaultCity="Perth" />
       </div>
+
       <footer>
         <a
           href="https://github.com/grishmav87/weather-app-react.git"
