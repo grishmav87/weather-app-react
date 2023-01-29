@@ -8,6 +8,21 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="row mt-3">
         {" "}
+        <div className="col-8">
+          <div className="d-flex">
+            <div>
+              <h1>{props.data.city}</h1>
+              <ul>
+                <li className="current-date">
+                  <FormattedDate date={props.data.date} />
+                </li>
+                <li classname="humidity-wind">
+                  Humidity: {props.data.humidity}%, Wind: {props.data.wind} km/h
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="col-4">
           <div className="d-flex">
             <div>
@@ -18,21 +33,9 @@ export default function WeatherInfo(props) {
               <CurrentWeather celsius={props.data.temperature} />
             </div>
           </div>
-        </div>
-        <div className="col-4">
-          <h1>{props.data.city}</h1>
-          <ul>
-            <li>
-              <FormattedDate date={props.data.date} />
-            </li>
-            <li className="text-capitalize">{props.data.description}</li>
-          </ul>
-        </div>
-        <div className="col-4">
-          <ul>
-            <li>Humidity: {props.data.humidity}%</li>
-            <li>Wind: {props.data.wind} km/h</li>
-          </ul>
+          <div className="text-capitalize weather-description">
+            {props.data.description}
+          </div>
         </div>
       </div>
     </div>

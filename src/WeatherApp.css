@@ -1,0 +1,35 @@
+.WeatherApp .search-bar {
+  margin-bottom: 30px;
+}
+.WeatherApp h1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.WeatherApp ul {
+  margin: 0;
+  padding: 0;
+
+  margin-block-end: 2em;
+}
+.WeatherApp li {
+  list-style: none;
+  color: #878787;
+  margin: 0;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+.WeatherApp canvas {
+  margin: 0 auto;
+  padding: 5px;
+}
+.WeatherApp .current-date {
+  margin-top: none;
+  margin-bottom: 5px;
+}
+.WeatherApp .weather-description {
+  color: #878787;
+}

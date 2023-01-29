@@ -1,0 +1,11 @@
+.CurrentWeather .current-temperature {
+  font-size: 48px;
+  font-weight: lighter;
+}
+.CurrentWeather .unit {
+  font-size: 32px;
+  vertical-align: super;
+}
+.CurrentWeather .unit a {
+  text-decoration: none;
+}
