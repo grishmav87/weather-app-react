@@ -23,13 +23,46 @@
   line-height: 19px;
 }
 .WeatherApp canvas {
-  margin: 0 auto;
   padding: 5px;
 }
+
 .WeatherApp .current-date {
   margin-top: none;
   margin-bottom: 5px;
 }
 .WeatherApp .weather-description {
+  text-align: center;
   color: #878787;
+}
+@media (max-width: 700px) {
+  .WeatherApp h1 {
+    font-size: 32px;
+  }
+  .WeatherApp li {
+    font-size: 14px;
+  }
+  .WeatherApp .weather-description {
+    font-size: 14px;
+  }
+  .WeatherApp input {
+    font-size: 12px;
+  }
+}
+@media (max-width: 300px) {
+  .WeatherApp h1 {
+    font-size: 28px;
+  }
+  .WeatherApp li {
+    font-size: 12px;
+  }
+  .WeatherApp .weather-description {
+    font-size: 12px;
+  }
+  .WeatherApp input {
+    font-size: 12px;
+    padding: none;
+  }
+  .WeatherApp .btn {
+    padding: none;
+  }
 }

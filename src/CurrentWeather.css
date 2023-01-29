@@ -1,6 +1,7 @@
 .CurrentWeather .current-temperature {
   font-size: 48px;
   font-weight: lighter;
+  line-height: 64px;
 }
 .CurrentWeather .unit {
   font-size: 32px;
@@ -8,4 +9,20 @@
 }
 .CurrentWeather .unit a {
   text-decoration: none;
+}
+@media (max-width: 700px) {
+  .CurrentWeather .current-temperature {
+    font-size: 32px;
+  }
+  .CurrentWeather .unit {
+    font-size: 24px;
+  }
+}
+@media (max-width: 300px) {
+  .CurrentWeather .current-temperature {
+    font-size: 24px;
+  }
+  .CurrentWeather .unit {
+    font-size: 12px;
+  }
 }
