@@ -9,6 +9,7 @@
   border: 1px solid #dadde1;
   border-radius: 10px;
   background-color: #fff;
+  opacity: 0.8;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
 }
 footer {
@@ -35,6 +36,6 @@ footer {
   }
 
   footer {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
